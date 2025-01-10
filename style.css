@@ -175,7 +175,7 @@ body {
   }
 
   .status-bar {
-    padding: 5px 8px;
+    padding: 5px 15px;
   }
 
   .time {
@@ -188,7 +188,7 @@ body {
 
   .timer-display {
     font-size: 36px;
-    padding: 15px;
+    padding: 20px;
   }
 
   .button-group {
@@ -221,7 +221,7 @@ body {
   }
 
   .status-bar {
-    padding: 5px 5px;
+    padding: 5px 15px;
   }
 
   .time {
@@ -234,11 +234,11 @@ body {
 
   .timer-display {
     font-size: 30px;
-    padding: 10px;
+    padding: 20px;
   }
 
   .button-group {
-    width: 50%;
+    width: 80%;
   }
 
   .app-button {
