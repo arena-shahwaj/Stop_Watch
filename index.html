@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samsung S23 Pro Stopwatch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="samsung-frame">
+      <div class="status-bar">
+        <span class="time">12:45</span>
+        <div class="status-icons">
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-battery-half"></i>
+        </div>
+      </div>
+      <div class="screen-container">
+        <div class="timer-display">
+          <span id="display">00:00:00</span>
+        </div>
+        <div class="button-group">
+          <button id="start" class="app-button">
+            <i class="fas fa-play"></i>
+          </button>
+          <button id="stop" class="app-button">
+            <i class="fas fa-pause"></i>
+          </button>
+          <button id="reset" class="app-button">
+            <i class="fas fa-redo"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="nav-bar nav-icon phone-button">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-regular fa-circle"></i>
+        <i class="fa-solid fa-play"></i>
+      </div>
+    </div>
+    <audio id="bg-music" src="audio.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
