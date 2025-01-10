@@ -175,7 +175,7 @@ body {
   }
 
   .status-bar {
-    padding: 5px 15px;
+    padding: 5px 22px;
   }
 
   .time {
@@ -192,7 +192,7 @@ body {
   }
 
   .button-group {
-    width: 60%;
+    width: 90%;
   }
 
   .app-button {
